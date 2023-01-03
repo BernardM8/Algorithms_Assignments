@@ -1,0 +1,8 @@
+A Social-Network Based Recommendation System for last.fm 
+In this assignment, you are asked to design and implement a social network-based recommender system for last.fm. 
+
+See CS401_Assignment4.docx for further assignment details.
+
+implemenation on LastFMRecommender.java
+test cases on Testing/LastFMRecommenderTest.java
+must import maven: org.junit.jupiter 

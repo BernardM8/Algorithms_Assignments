@@ -1,0 +1,30 @@
+IMDB Movie Database  Red-Black Binary Search Trees and Hashing
+The assignment is about design and development of a movie database for IMDB movie data.  You are given a .csv file which stores the following information for each movie. There are around 5000 movies listed in the file.
+    • id
+    • Color
+    • movie_title
+    • duration
+    • director_name
+    • actor_1_name	
+    • actor_2_name	
+    • actor_3_name	
+    • movie_imdb_link	
+    • language	
+    • country	
+    • content_rating	
+    • year	
+    • imdb_score	
+
+Functional and Design Requirements
+Your program 
+    • creates a movie database by reading the data from .csv file into an array
+    • creates a hash table of red black trees to perform search operation by fields including year, imdb_score, language and content_rating.  [red black tree where key is year; another red black tree where key is imdb_score, etc.]
+    • stores red black trees in a hash table
+    • performs search operation by year, imdb_score, by content_rating and/or language using the indexing trees
+    • prompts the user to enter search criteria (- for ignore)
+    • Prints the information of all the movies that are in the result set
+
+
+See CS401_Assignment3-Spring 2022(1).docx for further details.
+
+
